@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+.page{
+    margin-left: 70px;
+    margin-right: 70px;
+    header{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        nav{
+            flex-direction: row;
+            margin-top: 15px;
+
+            ul{
+                list-style: none;
+                text-align: center;
+                li{
+                    display: inline-block;
+                    padding: 0px 10px 0px 10px;
+                }
+                a{
+                    text-decoration: none;
+                    padding: 5px;
+                    border-bottom: solid 1.4px #DEA855;
+                    border-top: solid 1.4px #DEA855;
+                    color: #3B2729;
+                }
+                a:hover{
+                    background-color:#DEA855;
+                    color: white;
+                }
+                .sale{
+                    color:red;
+                }
+            }
+        }
+    }
+    .itemListContainer{
+        div{
+            ul{
+                list-style: none;
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    color: #3B2729;
+                }
+                a:hover{
+                    color: #DEA855;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
