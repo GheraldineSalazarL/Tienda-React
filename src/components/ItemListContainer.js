@@ -1,10 +1,5 @@
 
-export const ItemListContainer = ( {user,likes} ) => {
-
-    // console.log(props)
-
-    // console.log(ej.length)
-    // const {profesor, tutor} = props
+export const ItemListContainer = ( {user, likes} ) => {
 
 
     return (
