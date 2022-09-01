@@ -1,16 +1,23 @@
+import { useEffect, useState } from "react"
+import { pedirDatos } from "../helpers/pedirDatos"
+import { ItemList } from "./ItemList"
 
-export const ItemListContainer = ( {user, likes} ) => {
+export const ItemListContainer = ( ) => {
+
+    const [productos, setProductos] =useState([])
+
+    useEffect(()=>{
+        pedirDatos()
+        .then ((res) => {
+            setProductos = res
+        })
+    }, [])
 
 
     return (
-        <div className="itemListContainer d-flex justify-content-end">
+        <div className="container my-5">
             <div>
-                <h6>Hola {user}, Encuentra lo que más te gusta:</h6>
-                <ul className="d-flex justify-content-end">
-                        <li> <a href="/#">{likes.like2}</a> </li>
-                        <li className="px-3"> <a href="/#">{likes.like1}</a> </li>
-                        <li> <a href="/#">{likes.like3}</a> </li>
-                </ul>
+                <ItemList productos={productos}/>
             </div>
         </div>
         
