@@ -45,7 +45,6 @@
         div{
             ul{
                 list-style: none;
-                text-align: center;
                 a{
                     text-decoration: none;
                     color: #3B2729;
@@ -56,22 +55,22 @@
             }
         }
     }
-    .container{
-        width: 20rem;
-        .card{
-            .card-body{
-                div{
-                    .btn{
-                        background-color: #DEA855;
-                        border: 0px;
-                    }
-                    .cart{
-                        background-color: white;
-                    }
-                }
-            }
-        }
-    }
+    // .container{
+    //     width: 100%;
+    //     .card{
+    //         .card-body{
+    //             div{
+    //                 .btn{
+    //                     background-color: #DEA855;
+    //                     border: 0px;
+    //                 }
+    //                 .cart{
+    //                     background-color: white;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
 }
 
 

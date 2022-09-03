@@ -1,7 +1,7 @@
 import './App.scss';
-import { Navbar } from './components/Navbar';
-import { ItemListContainer } from './components/ItemListContainer';
-import { ItemCount } from './components/ItemCount';
+import { Navbar } from './components/Header/Navbar';
+import { ItemListContainer } from './components/ItemListContainer/ItemListContainer'
+// import { ItemCount } from './components/ItemCount';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 

@@ -1,25 +1,23 @@
 import { useEffect, useState } from "react"
-import { pedirDatos } from "../helpers/pedirDatos"
-import { ItemList } from "./ItemList"
+import { pedirDatos } from "../../helpers/pedirDatos"
+import { ItemList } from "../ItemLista/ItemList"
 
 export const ItemListContainer = ( ) => {
 
-    const [productos, setProductos] =useState([])
+    const [productos, setProductos] = useState([])
 
     useEffect(()=>{
         pedirDatos()
         .then ((res) => {
-            setProductos = res
+            setProductos (res)
         })
     }, [])
 
 
     return (
-        <div className="container my-5">
-            <div>
+            <div >
                 <ItemList productos={productos}/>
             </div>
-        </div>
         
     )
 }
