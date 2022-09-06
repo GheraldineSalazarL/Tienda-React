@@ -1,23 +1,23 @@
 import './App.scss';
 import { Navbar } from './components/Header/Navbar';
-import { ItemListContainer } from './components/ItemListContainer/ItemListContainer'
-// import { ItemCount } from './components/ItemCount';
-
+import { ItemListContainer } from './components/ItemListContainer/ItemListContainer';
+import {ItemDetailContainer} from './components/ItemDetailContainer/ItemDetailContainer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter,  Routes,  Route} from 'react-router-dom';
 
 function App() {
   return (
-    <div className='page'>      
-          <Navbar/>
-          <ItemListContainer />
-          {/* <div className='row d-flex justify-content-center'>
-              <ItemCount product={{name:"Escritorio Sahara", price: "300000", stock: "5"}}/>
-              <ItemCount product={{name:"Comedor Clasico", price: "1500000", stock: "3"}}/>
-              <ItemCount product={{name:"Mueble de Cocina Alto", price: "6000000", stock: "7"}}/>
-              <ItemCount product={{name:"Mueble de Cocina Bajo", price: "7000000", stock: "7"}}/>
-          </div> */}
-          
-    </div>
+    <BrowserRouter>    
+        <Navbar/>
+        <Routes>
+              <Route path='/productos/:categoryId' element={<ItemListContainer /> }/>
+              <Route path='/' element={ <ItemListContainer/> }/>
+              <Route path='/item/:itemId' element={<ItemDetailContainer />}/>
+              {/* <Route path='*' element={<Error404/> }/> */}
+        </Routes>
+        {/* <Footer/> */}
+           
+    </BrowserRouter>    
   );
 }
 

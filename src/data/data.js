@@ -1,12 +1,12 @@
 export const stock = [
     {
         id: 1,
-        nombre: 'Esscritorio Sahara',
+        nombre: 'Escritorio Sahara',
         precio: 500000,
         img: 'https://via.placeholder.com/450x600',
         stock: 7,
-        desc: 'El Escritorio Vance es el indicado, tiene las dimensiones perfectas para un espacio de trabajo cómodo, de diseño minimalista, amplio y adaptable a cualquier entorno.',
-        category: 'escritorios'
+        desc: 'El Escritorio Sahara es el indicado, tiene las dimensiones perfectas para un espacio de trabajo cómodo, de diseño minimalista, amplio y adaptable a cualquier entorno.',
+        category: 'living'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const stock = [
         img: 'https://via.placeholder.com/450x600',
         stock: 50,
         desc: 'Estante con ménsulas de hierro, fácil instalación.',
-        category: 'deco'
+        category: 'comedor'
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const stock = [
         img: 'https://via.placeholder.com/450x600',
         stock: 10,
         desc: 'Su diseño simple pero funcional permite que sea combinable con diferentes estilos.',
-        category: 'dormitorio'
+        category: 'office'
     },
     {
         id: 4,
@@ -42,7 +42,7 @@ export const stock = [
         img: 'https://via.placeholder.com/450x600',
         stock: 5,
         desc: 'Elegir el Rack de TV va a ser una de tus mejores decisiones. ¿Por qué? porque es un mueble excelente para reunir todo lo que te entretiene: música, TV, videojuegos, revistas, libros',
-        category: 'living'
+        category: 'cocina'
     },
     {
         id: 6,
@@ -51,6 +51,15 @@ export const stock = [
         img: 'https://via.placeholder.com/450x600',
         stock: 60,
         desc: 'El Zapatero viene a conquistar tu hogar, es tan liviano y práctico que lo podés poner en cualquier espacio: en el dormitorio, en el living, en el recibidor y hasta en el baño.',
-        category: 'living'
+        category: 'baño'
+    },
+    {
+        id: 7,
+        nombre: 'Zapatero en madera',
+        precio: 130000,
+        img: 'https://via.placeholder.com/450x600',
+        stock: 60,
+        desc: 'El Zapatero viene a conquistar tu hogar, es tan liviano y práctico que lo podés poner en cualquier espacio: en el dormitorio, en el living, en el recibidor y hasta en el baño.',
+        category: 'sale'
     },
 ]
