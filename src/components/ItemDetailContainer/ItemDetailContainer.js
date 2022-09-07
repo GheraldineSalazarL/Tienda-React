@@ -5,7 +5,7 @@ import { ItemDetail } from "../ItemDetail/ItemDetail"
 
 export const ItemDetailContainer = () => {
 
-    const [item, setItem] = useState(null)
+    const [item, setItem] = useState({ })
     const {itemId} = useParams()
 
     // const [loading, setLoading] = useState(true)
@@ -15,7 +15,7 @@ export const ItemDetailContainer = () => {
         // setLoading(true)
 
         pedirDatos()
-        console.log(item)
+        // console.log(item)
             .then((res) => {
                 setItem( res.find((prod) => prod.id === Number(itemId)) ) //Pongo number para parseaarlo ya que param es un string
             })
