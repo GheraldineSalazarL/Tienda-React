@@ -4,9 +4,20 @@
     box-sizing: border-box; 
 }
 
-$Titulos: 'Josefin Sans', sans-serif;
-$Textos: 'Merriweather', serif;
-// @import "index";
+$Textos: 'Josefin Sans', sans-serif;
+$Titulos: 'Merriweather', serif;
+$Cafe: #3B2729;
+$Amarillo: #DEA855;
+@import "/src/components/Header/Header.scss";
+@import "/src/components/Item/Item.scss";
+@import "/src/components/ItemDetail/ItemDetail.scss";
+
+-cards{
+    h4{
+        font-size: $Titulos;
+    }
+
+}
 
 
 // header{

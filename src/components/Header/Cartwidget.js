@@ -3,9 +3,12 @@ import { Icon } from '@iconify/react';
 export const Cartwidget = () => {
     
     return(
-        <a href="/#" className='my-auto text-warning ml-auto p-2 '>
-            <Icon icon="akar-icons:cart" width='30'/> 
-            
-        </a>
+        <div className='d-flex ms-3 py-1 px-2 border rounded'>
+            <a href="/#" className='text-warning'>
+                <Icon icon="akar-icons:cart" width='30'/> 
+            </a>
+            <p className='m-auto ps-2'> 0 </p>
+        </div>
+        
     );
 }

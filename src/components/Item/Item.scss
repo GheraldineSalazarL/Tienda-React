@@ -1,0 +1,38 @@
+.ItemListContainer{
+    font-family: $Textos;
+    .ItemList{
+        h2{
+            font-family: $Titulos;
+        }
+        .Items{
+            .Item{
+                .ItemInt{
+                    text-decoration: none;
+                color:$Cafe;
+                h4{
+                    font-family: $Titulos;
+                }
+                // box-shadow: 60px -16px teal;
+                .imag1{
+                   display: inline;
+                }
+                .imag2{
+                    display:none; 
+                }    
+                }
+                
+            }
+            .Item:hover{
+                h4{
+                    color: $Amarillo;
+                }
+                .imag1{
+                    display: none;
+                 }
+                 .imag2{
+                     display:inline; 
+                 }   
+            }
+        }
+    }
+}
