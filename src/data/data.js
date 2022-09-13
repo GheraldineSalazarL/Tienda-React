@@ -7,7 +7,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 1,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
+        "category": "baño",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 2,
@@ -17,7 +31,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 2,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina"
+        "category": "cocina",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'BLB',
+                text: 'Blanco brillante'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 3,
@@ -27,7 +55,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 3,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 4,
@@ -37,7 +79,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 4,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 5,
@@ -47,7 +103,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 5,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 6,
@@ -57,7 +127,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 6,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
+        "category": "baño",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 7,
@@ -67,7 +151,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 7,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina"
+        "category": "cocina",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 8,
@@ -77,7 +175,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 8,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
+        "category": "baño",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 9,
@@ -87,7 +199,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 9,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "comedor"
+        "category": "comedor",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 10,
@@ -97,7 +223,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 10,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 11,
@@ -107,7 +247,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 11,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
+        "category": "baño",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 12,
@@ -117,7 +271,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 12,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 13,
@@ -127,7 +295,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 13,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
+        "category": "baño",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 14,
@@ -137,7 +319,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 14,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina"
+        "category": "cocina",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 15,
@@ -147,7 +343,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 15,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "office"
+        "category": "office",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 16,
@@ -157,7 +367,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 16,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "dormitorio"
+        "category": "dormitorio",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 17,
@@ -167,7 +391,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 17,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 18,
@@ -177,7 +415,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 18,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina"
+        "category": "cocina",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 19,
@@ -187,7 +439,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 19,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 20,
@@ -197,7 +463,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 20,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 21,
@@ -207,7 +487,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 21,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 22,
@@ -217,7 +511,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 22,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 23,
@@ -227,7 +535,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 23,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 24,
@@ -237,7 +559,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 24,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina"
+        "category": "cocina",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 25,
@@ -247,7 +583,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 25,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 26,
@@ -257,7 +607,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 26,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 27,
@@ -267,7 +631,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 27,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina"
+        "category": "cocina",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 28,
@@ -277,7 +655,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 28,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
+        "category": "baño",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 29,
@@ -287,7 +679,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 29,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina"
+        "category": "cocina",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 30,
@@ -297,7 +703,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 30,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 31,
@@ -307,7 +727,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 31,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 32,
@@ -317,7 +751,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 32,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "office"
+        "category": "office",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 33,
@@ -327,7 +775,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 33,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina"
+        "category": "cocina",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 34,
@@ -337,7 +799,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 34,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
+        "category": "baño",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 35,
@@ -347,7 +823,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 35,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 36,
@@ -357,7 +847,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 36,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 37,
@@ -367,7 +871,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 37,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 38,
@@ -377,7 +895,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 38,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 39,
@@ -387,7 +919,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 39,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
+        "category": "baño",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 40,
@@ -397,7 +943,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 40,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "office"
+        "category": "office",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 41,
@@ -407,7 +967,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 41,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina"
+        "category": "cocina",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 42,
@@ -417,7 +991,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 42,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "office"
+        "category": "office",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 43,
@@ -427,7 +1015,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 43,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "office"
+        "category": "office",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 44,
@@ -437,7 +1039,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 44,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "office"
+        "category": "office",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 45,
@@ -447,7 +1063,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 45,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
+        "category": "baño",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 46,
@@ -457,7 +1087,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 46,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 47,
@@ -467,7 +1111,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 47,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "office"
+        "category": "office",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 48,
@@ -477,7 +1135,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 48,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "sale",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 49,
@@ -487,7 +1159,21 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 49,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
+        "category": "baño",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     },
     {
         "id": 50,
@@ -497,506 +1183,20 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 50,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina"
-    },
-    {
-        "id": 51,
-        "nombre": "PIMCO Income Strategy Fund",
-        "precio": "$30.01",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 51,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 52,
-        "nombre": "Soligenix, Inc.",
-        "precio": "$92.97",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 52,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 53,
-        "nombre": "GasLog Partners LP",
-        "precio": "$55.62",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 53,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "dormitorio"
-    },
-    {
-        "id": 54,
-        "nombre": "BHP Billiton plc",
-        "precio": "$108.31",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 54,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 55,
-        "nombre": "Century Aluminum Company",
-        "precio": "$105.64",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 55,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 56,
-        "nombre": "Peoples Financial Services Corp. ",
-        "precio": "$87.53",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 56,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
-    },
-    {
-        "id": 57,
-        "nombre": "CHS Inc",
-        "precio": "$159.01",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 57,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 58,
-        "nombre": "Sabra Healthcare REIT, Inc.",
-        "precio": "$25.14",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 58,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "dormitorio"
-    },
-    {
-        "id": 59,
-        "nombre": "iRadimed Corporation",
-        "precio": "$114.96",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 59,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 60,
-        "nombre": "Western Asset Emerging Markets Debt Fund Inc",
-        "precio": "$138.23",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 60,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "office"
-    },
-    {
-        "id": 61,
-        "nombre": "Patriot National, Inc.",
-        "precio": "$181.55",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 61,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
-    },
-    {
-        "id": 62,
-        "nombre": "GlassBridge Enterprises, Inc.",
-        "precio": "$114.02",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 62,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
-    },
-    {
-        "id": 63,
-        "nombre": "Colony NorthStar, Inc.",
-        "precio": "$137.14",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 63,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 64,
-        "nombre": "AMERIPRISE FINANCIAL SERVICES, INC.",
-        "precio": "$105.07",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 64,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 65,
-        "nombre": "Nuveen Dow 30SM Dynamic Overwrite Fund",
-        "precio": "$51.12",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 65,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 66,
-        "nombre": "Bryn Mawr Bank Corporation",
-        "precio": "$130.55",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 66,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina"
-    },
-    {
-        "id": 67,
-        "nombre": "Nuveen New York Municipal Value Fund, Inc.",
-        "precio": "$65.92",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 67,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 68,
-        "nombre": "Diana Containerships Inc.",
-        "precio": "$94.61",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 68,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 69,
-        "nombre": "JetBlue Airways Corporation",
-        "precio": "$48.03",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 69,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 70,
-        "nombre": "Quaker Chemical Corporation",
-        "precio": "$53.32",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 70,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 71,
-        "nombre": "SolarEdge Technologies, Inc.",
-        "precio": "$169.96",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 71,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "comedor"
-    },
-    {
-        "id": 72,
-        "nombre": "Scorpio Tankers Inc.",
-        "precio": "$71.02",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 72,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
-    },
-    {
-        "id": 73,
-        "nombre": "Ares Capital Corporation",
-        "precio": "$118.27",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 73,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 74,
-        "nombre": "Pacific Coast Oil Trust",
-        "precio": "$79.96",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 74,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "dormitorio"
-    },
-    {
-        "id": 75,
-        "nombre": "Gabelli Equity Trust, Inc. (The)",
-        "precio": "$60.54",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 75,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 76,
-        "nombre": "RPM International Inc.",
-        "precio": "$196.50",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 76,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 77,
-        "nombre": "Cardiovascular Systems, Inc.",
-        "precio": "$174.62",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 77,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 78,
-        "nombre": "Renasant Corporation",
-        "precio": "$194.83",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 78,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 79,
-        "nombre": "Blackrock MuniHoldings Fund, Inc.",
-        "precio": "$43.02",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 79,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "living"
-    },
-    {
-        "id": 80,
-        "nombre": "Zoe's Kitchen, Inc.",
-        "precio": "$180.07",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 80,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 81,
-        "nombre": "Diamond Hill Investment Group, Inc.",
-        "precio": "$159.72",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 81,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina"
-    },
-    {
-        "id": 82,
-        "nombre": "1347 Property Insurance Holdings, Inc.",
-        "precio": "$128.59",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 82,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "office"
-    },
-    {
-        "id": 83,
-        "nombre": "Sage Therapeutics, Inc.",
-        "precio": "$105.87",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 83,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 84,
-        "nombre": "Cytori Therapeutics Inc",
-        "precio": "$174.15",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 84,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 85,
-        "nombre": "City Office REIT, Inc.",
-        "precio": "$70.27",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 85,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 86,
-        "nombre": "New York Mortgage Trust, Inc.",
-        "precio": "$150.94",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 86,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
-    },
-    {
-        "id": 87,
-        "nombre": "Fossil Group, Inc.",
-        "precio": "$153.78",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 87,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 88,
-        "nombre": "Aegon NV",
-        "precio": "$114.56",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 88,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
-    },
-    {
-        "id": 89,
-        "nombre": "J P Morgan Chase & Co",
-        "precio": "$164.76",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 89,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
-    },
-    {
-        "id": 90,
-        "nombre": "Reinsurance Group of America, Incorporated",
-        "precio": "$71.22",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 90,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
-    },
-    {
-        "id": 91,
-        "nombre": "Rightside Group, Ltd.",
-        "precio": "$59.80",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 91,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "comedor"
-    },
-    {
-        "id": 92,
-        "nombre": "Workhorse Group, Inc.",
-        "precio": "$32.08",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 92,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
-    },
-    {
-        "id": 93,
-        "nombre": "Nuveen Energy MLP Total Return Fund",
-        "precio": "$184.69",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 93,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 94,
-        "nombre": "AmTrust Financial Services, Inc.",
-        "precio": "$166.02",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 94,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
-    },
-    {
-        "id": 95,
-        "nombre": "Nutraceutical International Corporation",
-        "precio": "$58.63",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 95,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina"
-    },
-    {
-        "id": 96,
-        "nombre": "CVR Refining, LP",
-        "precio": "$112.15",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 96,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 97,
-        "nombre": "Global X Health & Wellness Thematic ETF",
-        "precio": "$31.56",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 97,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
-    },
-    {
-        "id": 98,
-        "nombre": "Soligenix, Inc.",
-        "precio": "$189.70",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 98,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "baño"
-    },
-    {
-        "id": 99,
-        "nombre": "Gabelli Utility Trust (The)",
-        "precio": "$119.40",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 99,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "dormitorio"
-    },
-    {
-        "id": 100,
-        "nombre": "PowerShares DWA Consumer Cyclicals Momentum Portfolio",
-        "precio": "$149.02",
-        "img1": "https://via.placeholder.com/450x600",
-        "img2": "https://via.placeholder.com/450x550",
-        "stock": 100,
-        "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "sale"
+        "category": "cocina",
+        options: [
+            {
+                value: 'BL',
+                text: 'Blanco'
+            },
+            {
+                value: 'SH',
+                text: 'Sahara'
+            },
+            {
+                value: 'CB',
+                text: 'Caoba'
+            },
+        ]
     }
 ]

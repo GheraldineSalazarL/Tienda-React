@@ -9,7 +9,7 @@ export const Item = ({producto}) => {
                     <img src={producto.img1} className="imag1 img-fluid w-100"/>
                     <img src={producto.img2} className="imag2 img-fluid w-100"/>
                     <h4>{producto.nombre}</h4>
-                    <p>${producto.precio}</p>
+                    <p>{producto.precio}</p>
                     {/* <small>Stock: {producto.stock}</small> */}
                     <p>{producto.desc}</p>
                     {/* <ItemCount stock={producto.stock} /> */}

@@ -1,7 +1,6 @@
-import { useState } from "react"
 
-export const ItemCount = ( {stock} ) =>{
-    const[counter, setCounter] =useState(1)
+export const ItemCount = ( {stock, counter, setCounter, handleAñadir} ) =>{
+    // const[counter, setCounter] =useState(1)
 
     const onAdd  = () => {
         if(counter<stock){
@@ -19,7 +18,7 @@ export const ItemCount = ( {stock} ) =>{
             <button onClick={onDecrement} className="btn btn-warning">-</button>
             <h4 className="px-2 my-auto"> {counter} </h4>
             <button onClick={onAdd} className="btn btn-warning">+</button>
-            <button className="btn btn-warning mx-4 px-5" disabled={stock<=0}>Añadir al carrito</button>
+            <button onClick={handleAñadir} className="btn btn-warning mx-4 px-5" disabled={stock<=0}>Añadir al carrito</button>
         </div>
     )
 }
