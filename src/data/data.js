@@ -31,7 +31,7 @@ export const stock = [
         "img2": "https://via.placeholder.com/450x550",
         "stock": 2,
         "desc": "Syntax error in formula 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Ipsum consequat nisl vel pretium lectus quam id leo in. Quis vel eros donec ac. Quisque sagittis purus sit amet volutpat consequat. Adipiscing commodo elit at imperdiet dui accumsan sit. Massa massa ultricies mi quis hendrerit dolor magna eget.'",
-        "category": "cocina",
+        "category": "living",
         options: [
             {
                 value: 'BL',

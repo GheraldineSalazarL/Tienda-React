@@ -2,9 +2,12 @@ import {ItemCount} from '../ItemCount/ItemCount';
 import { useState } from "react";
 import Select from '../Select/Select';
 import { Link } from 'react-router-dom'
+import { useCartContext } from "../Context/CartContext"
 
 
 export const ItemDetail = ({item}) => {
+
+    const { cart, addToCart, isInCart } = useCartContext()
 
     const[cantidad, setCantidad] =useState(1)
     const[color, setColor]=useState(item.options[0].value)
@@ -18,7 +21,7 @@ export const ItemDetail = ({item}) => {
             cantidad, 
             color
         }
-        console.log(itemToCart)
+        addToCart(itemToCart)
     }
 
 
@@ -39,17 +42,20 @@ export const ItemDetail = ({item}) => {
 
                 <Select options={item.options} onSelect={setColor}/>
                
-                <ItemCount stock={item.stock} 
-                            counter={cantidad}
-                            setCounter={setCantidad}
-                            handleAñadir={handleAñadir}
-                />               
+                {
+                isInCart(item.id)
+                ?   <Link to="/cart" className="btn btn-success     my-2">Terminar mi compra</Link>
+                :   <ItemCount 
+                        stock={item.stock}
+                        counter={cantidad}
+                        setCounter={setCantidad}
+                        handleAñadir={handleAñadir}
+                    />
+                }  
 
                 <p className='py-1'>{item.desc}</p>
 
-                <Link to='/cart'>
-                    <button className="btnCart btn btn-warning px-5 m-auto">Finalizar compra</button>
-                </Link>
+                
 
             </div>
         </div>
