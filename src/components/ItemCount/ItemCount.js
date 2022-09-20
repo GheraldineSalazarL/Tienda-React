@@ -15,9 +15,9 @@ export const ItemCount = ( {stock, counter, setCounter, handleAñadir} ) =>{
 
     return (
         <div className="buttonsCount d-flex my-4">
-            <button onClick={onDecrement} className="btn btn-warning">-</button>
+            <button onClick={onDecrement} className={counter===1 ? "btn btn-danger" : "btn btn-warning"} disabled={counter===1}>-</button>
             <h4 className="px-2 my-auto"> {counter} </h4>
-            <button onClick={onAdd} className="btn btn-warning">+</button>
+            <button onClick={onAdd} className={counter===stock ? "btn btn-danger" : "btn btn-warning"} disabled={counter===stock}>+</button>
             <button onClick={handleAñadir} className="btn btn-warning mx-4 px-5" disabled={stock<=0}>Añadir al carrito</button>
         </div>
     )

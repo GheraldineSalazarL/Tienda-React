@@ -2,7 +2,8 @@ export const stock = [
     {
         "id": 1,
         "nombre": "Royce Micro-Cap Trust, Inc.",
-        "precio": "$134.40",
+        "promo": 40,
+        "precio": 134.40,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 1,
@@ -26,7 +27,8 @@ export const stock = [
     {
         "id": 2,
         "nombre": "DTE Energy Company",
-        "precio": "$199.59",
+        "promo": null,
+        "precio": 199.59,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 2,
@@ -50,7 +52,8 @@ export const stock = [
     {
         "id": 3,
         "nombre": "MS Income Securities, Inc.",
-        "precio": "$40.30",
+        "promo": null,
+        "precio": 40.30,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 3,
@@ -74,7 +77,8 @@ export const stock = [
     {
         "id": 4,
         "nombre": "Ophthotech Corporation",
-        "precio": "$82.20",
+        "promo": 40,
+        "precio": 82.20,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 4,
@@ -98,7 +102,8 @@ export const stock = [
     {
         "id": 5,
         "nombre": "Saul Centers, Inc.",
-        "precio": "$71.48",
+        "promo": null,
+        "precio": 71.48,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 5,
@@ -122,7 +127,8 @@ export const stock = [
     {
         "id": 6,
         "nombre": "Healthcare Realty Trust Incorporated",
-        "precio": "$124.26",
+        "promo": null,
+        "precio": 124.26,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 6,
@@ -146,7 +152,8 @@ export const stock = [
     {
         "id": 7,
         "nombre": "Kitov Pharmaceuticals Holdings Ltd.",
-        "precio": "$128.14",
+        "promo": null,
+        "precio": 128.14,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 7,
@@ -170,7 +177,8 @@ export const stock = [
     {
         "id": 8,
         "nombre": "Tsakos Energy Navigation Ltd",
-        "precio": "$115.73",
+        "promo": 40,
+        "precio": 115.73,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 8,
@@ -194,7 +202,8 @@ export const stock = [
     {
         "id": 9,
         "nombre": "SiteOne Landscape Supply, Inc.",
-        "precio": "$105.46",
+        "promo": null,
+        "precio": 105.46,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 9,
@@ -218,7 +227,8 @@ export const stock = [
     {
         "id": 10,
         "nombre": "YRC Worldwide, Inc.",
-        "precio": "$175.27",
+        "promo": null,
+        "precio": 175.27,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 10,
@@ -242,7 +252,8 @@ export const stock = [
     {
         "id": 11,
         "nombre": "Caterpillar, Inc.",
-        "precio": "$107.19",
+        "promo": null,
+        "precio": 107.19,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 11,
@@ -266,7 +277,8 @@ export const stock = [
     {
         "id": 12,
         "nombre": "Trans World Entertainment Corp.",
-        "precio": "$110.50",
+        "promo": 40,
+        "precio": 110.50,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 12,
@@ -290,7 +302,8 @@ export const stock = [
     {
         "id": 13,
         "nombre": "Fresenius Medical Care Corporation",
-        "precio": "$197.12",
+        "promo": null,
+        "precio": 197.12,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 13,
@@ -314,7 +327,8 @@ export const stock = [
     {
         "id": 14,
         "nombre": "First Busey Corporation",
-        "precio": "$147.92",
+        "promo": 40,
+        "precio": 147.92,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 14,
@@ -338,7 +352,8 @@ export const stock = [
     {
         "id": 15,
         "nombre": "Magellan Midstream Partners L.P.",
-        "precio": "$33.34",
+        "promo": null,
+        "precio": 33.34,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 15,
@@ -362,7 +377,8 @@ export const stock = [
     {
         "id": 16,
         "nombre": "Monmouth Real Estate Investment Corporation",
-        "precio": "$152.51",
+        "promo": null,
+        "precio": 152.51,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 16,
@@ -386,7 +402,8 @@ export const stock = [
     {
         "id": 17,
         "nombre": "ProAssurance Corporation",
-        "precio": "$54.65",
+        "promo": 40,
+        "precio": 54.65,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 17,
@@ -410,7 +427,8 @@ export const stock = [
     {
         "id": 18,
         "nombre": "Entertainment Gaming Asia Incorporated",
-        "precio": "$106.96",
+        "promo": null,
+        "precio": 106.96,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 18,
@@ -434,7 +452,8 @@ export const stock = [
     {
         "id": 19,
         "nombre": "Andina Acquisition Corp. II",
-        "precio": "$160.30",
+        "promo": null,
+        "precio": 160.30,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 19,
@@ -458,7 +477,8 @@ export const stock = [
     {
         "id": 20,
         "nombre": "Cleveland BioLabs, Inc.",
-        "precio": "$181.32",
+        "promo": 40,
+        "precio": 181.32,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 20,
@@ -482,7 +502,8 @@ export const stock = [
     {
         "id": 21,
         "nombre": "Inovio Pharmaceuticals, Inc.",
-        "precio": "$45.16",
+        "promo": null,
+        "precio": 45.16,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 21,
@@ -506,7 +527,8 @@ export const stock = [
     {
         "id": 22,
         "nombre": "CDI Corporation",
-        "precio": "$176.25",
+        "promo": null,
+        "precio": 176.25,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 22,
@@ -530,7 +552,8 @@ export const stock = [
     {
         "id": 23,
         "nombre": "HSBC Holdings plc",
-        "precio": "$172.05",
+        "promo": 40,
+        "precio": 172.05,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 23,
@@ -554,7 +577,8 @@ export const stock = [
     {
         "id": 24,
         "nombre": "Clean Diesel Technologies, Inc.",
-        "precio": "$78.89",
+        "promo": null,
+        "precio": 78.89,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 24,
@@ -578,7 +602,8 @@ export const stock = [
     {
         "id": 25,
         "nombre": "Axon Enterprise, Inc.",
-        "precio": "$62.25",
+        "promo": null,
+        "precio": 62.25,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 25,
@@ -602,7 +627,8 @@ export const stock = [
     {
         "id": 26,
         "nombre": "TransMontaigne Partners L.P.",
-        "precio": "$189.16",
+        "promo": null,
+        "precio": 189.16,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 26,
@@ -626,7 +652,8 @@ export const stock = [
     {
         "id": 27,
         "nombre": "Best Buy Co., Inc.",
-        "precio": "$95.97",
+        "promo": 40,
+        "precio": 95.97,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 27,
@@ -650,7 +677,8 @@ export const stock = [
     {
         "id": 28,
         "nombre": "Gabelli Dividend",
-        "precio": "$130.39",
+        "promo": null,
+        "precio": 130.39,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 28,
@@ -674,7 +702,8 @@ export const stock = [
     {
         "id": 29,
         "nombre": "Ollie's Bargain Outlet Holdings, Inc.",
-        "precio": "$72.92",
+        "promo": null,
+        "precio": 72.92,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 29,
@@ -698,7 +727,8 @@ export const stock = [
     {
         "id": 30,
         "nombre": "CubeSmart",
-        "precio": "$134.32",
+        "promo": null,
+        "precio": 134.32,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 30,
@@ -722,7 +752,8 @@ export const stock = [
     {
         "id": 31,
         "nombre": "Ball Corporation",
-        "precio": "$55.51",
+        "promo": null,
+        "precio": 55.51,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 31,
@@ -746,7 +777,8 @@ export const stock = [
     {
         "id": 32,
         "nombre": "Aegon NV",
-        "precio": "$183.16",
+        "promo": null,
+        "precio": 183.16,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 32,
@@ -770,7 +802,8 @@ export const stock = [
     {
         "id": 33,
         "nombre": "Special Opportunities Fund Inc.",
-        "precio": "$181.19",
+        "promo": null,
+        "precio": 181.19,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 33,
@@ -794,7 +827,8 @@ export const stock = [
     {
         "id": 34,
         "nombre": "Teekay LNG Partners L.P.",
-        "precio": "$95.75",
+        "promo": 40,
+        "precio": 95.75,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 34,
@@ -818,7 +852,8 @@ export const stock = [
     {
         "id": 35,
         "nombre": "Select Income REIT",
-        "precio": "$29.58",
+        "promo": null,
+        "precio": 29.58,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 35,
@@ -842,7 +877,8 @@ export const stock = [
     {
         "id": 36,
         "nombre": "Sigma Labs, Inc.",
-        "precio": "$78.46",
+        "promo": null,
+        "precio": 78.46,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 36,
@@ -866,7 +902,8 @@ export const stock = [
     {
         "id": 37,
         "nombre": "China Life Insurance Company Limited",
-        "precio": "$118.43",
+        "promo": null,
+        "precio": 118.43,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 37,
@@ -890,7 +927,8 @@ export const stock = [
     {
         "id": 38,
         "nombre": "Lake Shore Bancorp, Inc.",
-        "precio": "$149.63",
+        "promo": null,
+        "precio": 149.63,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 38,
@@ -914,7 +952,8 @@ export const stock = [
     {
         "id": 39,
         "nombre": "Core Laboratories N.V.",
-        "precio": "$22.12",
+        "promo": 40,
+        "precio": 22.12,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 39,
@@ -938,7 +977,8 @@ export const stock = [
     {
         "id": 40,
         "nombre": "Giga-tronics Incorporated",
-        "precio": "$171.61",
+        "promo": null,
+        "precio": 171.61,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 40,
@@ -962,7 +1002,8 @@ export const stock = [
     {
         "id": 41,
         "nombre": "Vitamin Shoppe, Inc",
-        "precio": "$131.26",
+        "promo": null,
+        "precio": 131.26,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 41,
@@ -986,7 +1027,8 @@ export const stock = [
     {
         "id": 42,
         "nombre": "Smith Micro Software, Inc.",
-        "precio": "$107.75",
+        "promo": null,
+        "precio": 107.75,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 42,
@@ -1010,7 +1052,8 @@ export const stock = [
     {
         "id": 43,
         "nombre": "Cisco Systems, Inc.",
-        "precio": "$160.50",
+        "promo": null,
+        "precio": 160.50,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 43,
@@ -1034,7 +1077,8 @@ export const stock = [
     {
         "id": 44,
         "nombre": "BB&T Corporation",
-        "precio": "$93.22",
+        "promo": 40,
+        "precio": 93.22,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 44,
@@ -1058,7 +1102,8 @@ export const stock = [
     {
         "id": 45,
         "nombre": "Ability Inc.",
-        "precio": "$128.69",
+        "promo": null,
+        "precio": 128.69,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 45,
@@ -1082,7 +1127,8 @@ export const stock = [
     {
         "id": 46,
         "nombre": "Liberty TripAdvisor Holdings, Inc.",
-        "precio": "$167.38",
+        "promo": null,
+        "precio": 167.38,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 46,
@@ -1106,7 +1152,8 @@ export const stock = [
     {
         "id": 47,
         "nombre": "Achaogen, Inc.",
-        "precio": "$27.18",
+        "promo": null,
+        "precio": 27.18,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 47,
@@ -1130,7 +1177,8 @@ export const stock = [
     {
         "id": 48,
         "nombre": "Taiwan Semiconductor Manufacturing Company Ltd.",
-        "precio": "$136.08",
+        "promo": null,
+        "precio": 136.08,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 48,
@@ -1154,7 +1202,8 @@ export const stock = [
     {
         "id": 49,
         "nombre": "Blackrock MuniHoldings New Jersey Insured Fund, Inc.",
-        "precio": "$197.70",
+        "promo": null,
+        "precio": 197.70,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 49,
@@ -1178,7 +1227,8 @@ export const stock = [
     {
         "id": 50,
         "nombre": "SiteOne Landscape Supply, Inc.",
-        "precio": "$161.02",
+        "promo": 40,
+        "precio": 161.02,
         "img1": "https://via.placeholder.com/450x600",
         "img2": "https://via.placeholder.com/450x550",
         "stock": 50,

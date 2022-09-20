@@ -39,6 +39,7 @@ export const ItemDetail = ({item}) => {
                 <h6 className='py-1'>Categoría: {item.category}</h6>
                 <h1 className='py-1'>{item.nombre}</h1>
                 <h3 className='py-1'>{item.precio}</h3>
+                {item.promo && <h5 style={{color:'red'}}>{item.promo}% OFF!!</h5>}
 
                 <Select options={item.options} onSelect={setColor}/>
                

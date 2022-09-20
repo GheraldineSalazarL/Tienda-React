@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import { pedirDatos } from "../../helpers/pedirDatos"
 import { ItemList } from "../ItemLista/ItemList"
 import { useParams } from "react-router-dom"
+import { Loader } from "../Loader/Loader"
+
 
 export const ItemListContainer = ( ) => {
 
@@ -34,15 +36,7 @@ export const ItemListContainer = ( ) => {
     return (
         <div className="ItemListContainer">
             {
-                loading 
-                ? 
-                <div class="text-center">
-                    <div class="spinner-border text-warning" style={{width:'4rem', height: '4rem'}} s role="status">
-                        <span class="visually-hidden">Loading...</span>
-                    </div>
-                    </div>
-                
-                : <ItemList productos={productos}/>
+                loading ? <Loader/> : <ItemList productos={productos}/>
             }
         </div>
     )

@@ -6,7 +6,13 @@ export const ItemList = ({productos = []}) => {
             <h2>Productos</h2>
             
             <div className="Items row ">
-                {productos.map((prod)=> <Item  producto={prod} key={prod.id}/>)}
+                {productos.map((prod)=> {
+                    if(prod.stock>0){
+                        return <Item  producto={prod} key={prod.id}/>
+                    } else{
+                        return null
+                    }
+                })}
             </div>
         </div>
     )
