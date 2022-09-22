@@ -1,16 +1,16 @@
 import {ItemCount} from '../ItemCount/ItemCount';
 import { useState } from "react";
-import Select from '../Select/Select';
+// import Select from '../Select/Select';
 import { Link } from 'react-router-dom'
 import { useCartContext } from "../Context/CartContext"
 
 
 export const ItemDetail = ({item}) => {
 
-    const { cart, addToCart, isInCart } = useCartContext()
+    const { addToCart, isInCart } = useCartContext()
 
     const[cantidad, setCantidad] =useState(1)
-    const[color, setColor]=useState(item.options[0].value)
+    // const[color, setColor]=useState(item.options[0].value)
 
     const handleAñadir = () => {
         const itemToCart = {
@@ -19,7 +19,7 @@ export const ItemDetail = ({item}) => {
             nombre: item.nombre,
             imagen: item.img1,
             cantidad, 
-            color
+            // color
         }
         addToCart(itemToCart)
     }
@@ -41,7 +41,7 @@ export const ItemDetail = ({item}) => {
                 <h3 className='py-1'>{item.precio}</h3>
                 {item.promo && <h5 style={{color:'red'}}>{item.promo}% OFF!!</h5>}
 
-                <Select options={item.options} onSelect={setColor}/>
+                {/* <Select options={item.options} onSelect={setColor}/> */}
                
                 {
                 isInCart(item.id)
