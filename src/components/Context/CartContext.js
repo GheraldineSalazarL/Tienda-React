@@ -32,6 +32,10 @@ export const CartProvider = ({children}) => {
         setCart([])
     }
 
+    const terminarCompra = () => { // se va a Checkout
+        setCart([])
+    }
+
     return (
         <CartContext.Provider value={{
             cart, 
@@ -40,7 +44,8 @@ export const CartProvider = ({children}) => {
             cartQuantity,
             cartTotal,
             emptyCart,
-            removeItem
+            removeItem, 
+            terminarCompra
           }}>
             {children}
             
