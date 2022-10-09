@@ -13,7 +13,19 @@ export const Item = ({producto}) => {
                     {/* <small>Stock: {producto.stock}</small> */}
                     <p>{producto.desc}</p>
                     {/* <ItemCount stock={producto.stock} /> */}
-            </Link>
+                </Link>
+
+                    {/* Si quisiera que se vean los productos que no hay stock, puedo hacer esto: */}
+                    {/* {
+                        producto.stock > 0
+                        ? 
+                            // pongo todo lo anterio (desde LINK)
+                        :
+                            todo lo anterior, más:
+                            <p>No hay producto en stock</p>
+                    } */}
+
+                
         </div>
             
             )

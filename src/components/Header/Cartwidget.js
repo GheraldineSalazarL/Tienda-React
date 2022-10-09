@@ -1,11 +1,11 @@
 import { Icon } from '@iconify/react';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom'
-import {CartContext} from '../Context/CartContext'
+import {CartContext} from '../../Context/CartContext'
 
 export const Cartwidget = () => {
 
-    const { cartQuantity } = useContext(CartContext)
+    const { cartQuantity } = useContext(CartContext) //traigo de context cartQuantity que es el acumulado de los items
     
     return(
         <div className='d-flex ms-3 py-1 px-2 border rounded'>

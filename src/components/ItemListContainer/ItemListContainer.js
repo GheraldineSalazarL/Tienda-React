@@ -1,58 +1,32 @@
-import { useEffect, useState } from "react"
 // import { pedirDatos } from "../../helpers/pedirDatos"
 import { ItemList } from "../ItemLista/ItemList"
-import { useParams } from "react-router-dom"
 import { Loader } from "../Loader/Loader"
-import {collection, getDocs, query, where} from "firebase/firestore"
-import {db} from "../../firebase/config"
+import { useLoginContext } from "../../Context/LoginContext"
+import { useProductos } from "../../hooks/useProductos"
+
 
 export const ItemListContainer = ( ) => {
-
    
-    const [productos, setProductos] = useState([])
-    const [loading, setLoading] = useState(true)
+    //Aquí iba lo que dice en useProductos (hooks) y lo remplazo por: 
+    const {productos, loading} =useProductos()
 
-    const { categoryId } = useParams()
 
-    useEffect(() => {
-        setLoading(true)
-
-        const productosRef = collection(db, 'productos')
-        const q = categoryId 
-        ? query(productosRef, where('category','==',categoryId))
-        : productosRef
-        
-        getDocs(q)
-            .then ((resp)=>{
-                const productosDB = resp.docs.map((doc)=>({id: doc.id, ...doc.data()}))
-
-                setProductos(productosDB)
-            })
-            .finally(() => {
-                        setLoading(false)
-                    })
-        // pedirDatos()
-        //     .then( (res) => {
-        //         if (!categoryId) {
-        //             setProductos(res)
-        //         } else {
-        //             setProductos( res.filter((prod) => prod.category === categoryId) )
-        //         }
-        //     })
-        //     .catch( (error) => {
-        //         console.log(error)
-        //     })
-        //     .finally(() => {
-        //         setLoading(false)
-        //     })
-    }, [categoryId])
-
+    //LoginContext: Puedo condicionar el ItemListContainer
+    const {user} = useLoginContext() //el usuario esta logeado?
 
     return (
-        <div className="ItemListContainer">
+        // Muestra el catologo de productos solo si esta logeado 
+        <>  
             {
-                loading ? <Loader/> : <ItemList productos={productos}/>
+                user.logged 
+                ? 
+                    <div className="ItemListContainer">
+                        {
+                            loading ? <Loader/> : <ItemList productos={productos}/>
+                        }
+                    </div>
+                : <navigate to="/login" />
             }
-        </div>
+        </>
     )
 }

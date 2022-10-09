@@ -12,7 +12,7 @@ export const ItemList = ({productos = []}) => {
                     } else{
                         return null
                     }
-                })}
+                })} {/* Aqui estoy mapeando los productos que tengan stock>0 */}
             </div>
         </div>
     )

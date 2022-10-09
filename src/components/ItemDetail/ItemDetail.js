@@ -2,12 +2,12 @@ import {ItemCount} from '../ItemCount/ItemCount';
 import { useState } from "react";
 // import Select from '../Select/Select';
 import { Link } from 'react-router-dom'
-import { useCartContext } from "../Context/CartContext"
+import { useCartContext } from "../../Context/CartContext"
 
 
 export const ItemDetail = ({item}) => {
 
-    const { addToCart, isInCart } = useCartContext()
+    const { addToCart, isInCart } = useCartContext() //envó addtocart (los item añadidos) al context y el valor de isInCart (si el producto ya fue agregado al carro) al context
 
     const[cantidad, setCantidad] =useState(1)
     // const[color, setColor]=useState(item.options[0].value)
@@ -21,7 +21,7 @@ export const ItemDetail = ({item}) => {
             cantidad, 
             // color
         }
-        addToCart(itemToCart)
+        addToCart(itemToCart) //agrego al carro lo que voy sumando al carro
     }
 
 
@@ -52,7 +52,7 @@ export const ItemDetail = ({item}) => {
                         setCounter={setCantidad}
                         handleAñadir={handleAñadir}
                     />
-                }  
+                }  {/* Si el producto ya fue agregado al carrito (true) entonces aparece un botón que diga terminar mi compra, si no, entonces envía al contador */}
 
                 <p className='py-1'>{item.desc}</p>
 

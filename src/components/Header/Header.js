@@ -3,9 +3,10 @@ import { Cartwidget } from './Cartwidget';
 import { Link } from 'react-router-dom'
 import { Icon } from '@iconify/react';
 import { Nav, Navbar } from "react-bootstrap";
-
+import { useLoginContext } from '../../Context/LoginContext'
 
 export const Header = () => {
+    const {user, logout} = useLoginContext()
     return (
         <header className='navbar-fixed-top'>
             <Navbar collapseOnSelect expand="lg" className='mx-5 my-2' >
@@ -47,7 +48,13 @@ export const Header = () => {
                     </form>
                 </Nav>
                 <Cartwidget />
+
+                
             </Navbar>
+            <div className='header-user'>
+                <small>Bienvenido: {user.user}</small>
+                <button onClick={logout} className='btn btn-outline-danger'>Logout</button>
+            </div>
         </header>
     );
 }

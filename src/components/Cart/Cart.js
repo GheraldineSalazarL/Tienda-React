@@ -1,10 +1,13 @@
-import { Link } from 'react-router-dom'
-import { useCartContext } from '../Context/CartContext'
+import { Link, Navigate } from 'react-router-dom'
+import { useCartContext } from '../../Context/CartContext'
+import {BsFillTrash2Fill} from 'react-icons/bs'
 
 export const Cart = () => {
 
-  const { cart, cartTotal, emptyCart, removeItem } = useCartContext()
+  const { cart, cartTotal, emptyCart, removeItem } = useCartContext() //consume cart=los item agrados al carro; CartTotal=el precio * item; emptyCart= vaciar carro, removeItem= nuevo objeto con todos los item excepto con el item con id eliminado , todo esto del context
 
+
+  //En seguida hago un condicional para que cuando el carro tengo longitud = 0 (carro vacio), entonces retorne una cosa, de lo contrario se va al return de abajo
   if(cart.length===0){
     return(
         <div className='container my-5'>
@@ -27,7 +30,8 @@ export const Cart = () => {
                         <p>Precio: {item.precio}</p>
                         <p>Cantidad: {item.cantidad}</p>
                         <small>Color: {item.color}</small>
-                        <button onClick={() => removeItem(item.id)} className="btn btn-danger mx-2">Remove</button>
+                        <br/>
+                        <button onClick={() => removeItem(item.id)} className="btn btn-danger mx-2"><BsFillTrash2Fill/></button> {/* Aquí debo retornar el id del item que se selecciona por medio de removeItem, esto se va al context y context devuelve una respuesta */}
                         <hr/>
                     </div>
                 ))}
