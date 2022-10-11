@@ -1,46 +1,53 @@
 import { Link, Navigate } from 'react-router-dom'
 import { useCartContext } from '../../Context/CartContext'
-import {BsFillTrash2Fill} from 'react-icons/bs'
+import { Icon } from '@iconify/react';
 
 export const Cart = () => {
 
-  const { cart, cartTotal, emptyCart, removeItem } = useCartContext() //consume cart=los item agrados al carro; CartTotal=el precio * item; emptyCart= vaciar carro, removeItem= nuevo objeto con todos los item excepto con el item con id eliminado , todo esto del context
+  const { cart, cartTotal, emptyCart, removeItem } = useCartContext() 
 
-
-  //En seguida hago un condicional para que cuando el carro tengo longitud = 0 (carro vacio), entonces retorne una cosa, de lo contrario se va al return de abajo
   if(cart.length===0){
     return(
-        <div className='container my-5'>
-            <h2>Tu carrito esta vacío</h2>
+        <div className='container my-5 border border-3 rounded p-5 col-xl-6'>
+            <h3>Tu carrito esta vacío</h3>
             <hr/>
-            <Link to="/" className='btn btn-primary'>Ir a comprar</Link>
+            <Link to="/" className='btn btn-warning'>Ir a comprar</Link>
         </div>
     )
   }
  
-  return (
-    <div className="container my-5">
-        
-                <h2>Tu carrito</h2>
-                <hr/>
-
-                { cart.map((item) => (
-                    <div key={item.id}>
-                        <h3>{item.nombre}</h3>
-                        <p>Precio: {item.precio}</p>
-                        <p>Cantidad: {item.cantidad}</p>
-                        <small>Color: {item.color}</small>
-                        <br/>
-                        <button onClick={() => removeItem(item.id)} className="btn btn-danger mx-2"><BsFillTrash2Fill/></button> {/* Aquí debo retornar el id del item que se selecciona por medio de removeItem, esto se va al context y context devuelve una respuesta */}
-                        <hr/>
-                    </div>
-                ))}
-
-
-                <h4>Total: ${cartTotal()}</h4>
-                <button onClick={emptyCart} className="btn btn-danger">Vaciar carrito</button>
-                <Link className='btn btn-success mx-2' to="/checkout">Terminar mi compra</Link>
-    </div>
-)
+    return (
+        <div className="container my-5">
+            
+                    <h3>Carrito de compras</h3>
+                    <div className='row col-xl-12 m-auto'>
+                        <div className='col-xl-8 me-4 col-lg-8 col-md-8 col-ms-12 col-12'>
+                            { cart.map((item) => (
+                                <div className='d-flex col-lg-12' key={item.id}>
+                                    <img src={item.imagen} className="img-fluid p-2  col-xl-1 col-lg-2 col-md-2 col-sm-2 col-2"/>
+                                    <div className='p-2 flex-grow-1'>
+                                        <h4>{item.nombre}</h4>
+                                        <p>Cantidad: {item.cantidad}</p>
+                                        <p>Color: {item.color}</p>
+                                        <p></p>
+                                    </div>
+                                    <div className='d-flex flex-column p-2 col-xl-2'>
+                                        <h6>Precio: {item.precio}</h6>
+                                        <button onClick={() => removeItem(item.id)} className="btn ms-5"><Icon icon="akar-icons:trash-can" width='30' className='text-danger' /></button>
+                                    </div>                        
+                                </div>
+                            ))}
+                            <hr/>
+                            <button onClick={emptyCart} className="btn btn-danger mb-3">Vaciar carrito</button>
+                        </div>
+                        <div className='border border-1 p-3  h-100 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12'>
+                            <h5>Resumen</h5>
+                            <hr/>
+                            <h6>Total: ${cartTotal()}</h6>
+                            <Link className='btn btn-success mx-auto my-2 col-xl-12' to="/checkout">Terminar mi compra</Link>
+                        </div>
+                    </div>  
+        </div>
+    )
 }
 

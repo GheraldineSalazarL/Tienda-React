@@ -5,15 +5,14 @@ import {CartContext} from '../../Context/CartContext'
 
 export const Cartwidget = () => {
 
-    const { cartQuantity } = useContext(CartContext) //traigo de context cartQuantity que es el acumulado de los items
+    const { cartQuantity } = useContext(CartContext) 
     
     return(
-        <div className='d-flex ms-3 py-1 px-2 border rounded'>
+        <div className='d-flex mx-2 py-1 px-2 border rounded'>
             <Link to='/cart'>
                 <Icon icon="akar-icons:cart" width='30' className='text-warning'/> 
             </Link>
             <p className='m-auto ps-2'> {cartQuantity()} </p>
         </div>
-        
     );
 }

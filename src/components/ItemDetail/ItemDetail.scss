@@ -8,13 +8,31 @@
             }
             .buttonsCount{
                 button{
-                    font-size: 1.5rem;
+                    font-size: 1.2rem;
+                    border: 0px;
+                    &:hover{
+                        background-color: $Amarillo;
+                    }
                 }
-                
+            }
+            .buttonFinal{
+                font-size: 1.2rem;
+                background-color: $Cafe;
+                color: white;
+                border: 0px;
+                padding: 8px 0px 8px 0px;
+                &:hover{
+                    background-color: #483b3d;
+                }
             }
             .btnCart{
                 font-size: 1.5rem;
 
+            }
+            select{
+                padding:  10px 15px 10px 15px;
+                border-radius: 5px;
+                border: 2px solid rgb(170, 167, 167);
             }
         }
     }

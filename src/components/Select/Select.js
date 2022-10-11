@@ -1,13 +1,16 @@
+import React from 'react'
 
 const Select = ({options = [], onSelect}) => {
+
     const handleSelect = (e) => {
         onSelect(e.target.value)
     }
+
   return (
     <select onChange={handleSelect}>
-        {
-            options.map((opt) => <option key={opt.value} value={opt.value}>{opt.text}</option>)
-        }
+      {
+          options.map((opt) => <option key={opt.text} value={opt.text}>{opt.text}</option>)
+      }
     </select>
   )
 }

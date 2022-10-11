@@ -1,6 +1,53 @@
 header{
     font-family: $Titulos;
     color: $Cafe;
+    .menuUser{
+        position: absolute;
+        top: 62px; right: 0px;
+        background-color: white;
+        padding: 10px;
+        p{
+            border-bottom: 2px solid $Amarillo;
+            padding-bottom: 10px;
+        }
+        button{
+            border: 0px;
+            background-color: rgba(240, 248, 255, 0);
+            width: 100%;
+        }
+    }
+}
 
-
+@media screen and (max-width:1200px){
+    header{
+            .logo{
+                position:static !important;
+                top: 0px; right: 0px;
+            }
+        
+    }
+}
+@media screen and (max-width:991px){
+    header{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+}
+@media screen and (max-width:361px){
+    header{
+        .navInt{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center !important;
+        }
+        .menuUser{
+            position: absolute;
+            top: 185px; right: -10px;
+            background-color: white;
+        }
+    }
 }

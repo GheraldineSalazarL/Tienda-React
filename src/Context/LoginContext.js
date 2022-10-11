@@ -1,33 +1,22 @@
 import { createContext, useContext, useState } from "react";
 
-export const LoginContext = createContext() //creo contexto
+export const LoginContext = createContext() 
 
 const usuarios = [
     {
         email: 'abc@abc.com',
         password: '1234'
     },
-    {
-        email: 'santiago@denis.com',
-        password: '1234'
-    },
-    {
-        email: 'conrado@lanusse.com',
-        password: 'coder'
-    }
 ]
 
-export const LoginProvider = ({children}) => {//el provider recive los children por propiedades y los renderiza
+export const LoginProvider = ({children}) => {
 
     const [user, setUser] = useState({
         user: '',
         logged: false
-    }) //Estado inicial 
+    }) 
 
     const login = (values) => {
-        //recorre en objeto usuarios y encuentra uno que haga match con el email y pass que viene de values LoginScreen, dos opciones: 
-
-        // const match = usuarios.find(user => (user.email === values.email && user.password === values.pass))  
 
         const match = usuarios.find(user => user.email === values.email)
 
@@ -43,14 +32,14 @@ export const LoginProvider = ({children}) => {//el provider recive los children 
         } else {
             alert("Email incorrecto")
         }
-    } //funcion de login
+    } 
 
     const logout = () => {
         setUser({
             user: '',
             logged: false
         })
-    } //función de logout
+    } 
 
     return (
         <LoginContext.Provider value={{user, login, logout}}>
@@ -60,7 +49,7 @@ export const LoginProvider = ({children}) => {//el provider recive los children 
 }
 
 export const useLoginContext = () => {
-    return useContext(LoginContext) //Llamo esto y me retorna el proveedor
-} //Puedo condicionar los componentes (ej: ItemListContainer)
+    return useContext(LoginContext) 
+} 
 
 

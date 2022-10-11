@@ -11,7 +11,9 @@ $Amarillo: #DEA855;
 @import "/src/components/Header/Header.scss";
 @import "/src/components/Item/Item.scss";
 @import "/src/components/ItemDetail/ItemDetail.scss";
-
+@import "/src/components/Footer/footer.scss";
+@import "/src/components/Loader/Loader.scss";
+@import "/src/components/LoginScreen/LoginScreen.scss";
 -cards{
     h4{
         font-size: $Titulos;
@@ -19,44 +21,6 @@ $Amarillo: #DEA855;
 
 }
 
-
-// header{
-//     width: 100%;
-//     flex-wrap: wrap;
-//     justify-content: center;
-//     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-//     nav{
-//         margin-left: 70px;
-//         margin-right: 70px;
-        
-//         flex-direction: row;
-//         margin-top: 15px;
-
-//         ul{
-//             list-style: none;
-//             text-align: center;
-//             li{
-//                 display: inline-block;
-//                 padding: 0px 10px 0px 10px;
-//             }
-//             a{
-//                 text-decoration: none;
-//                 padding: 5px;
-//                 border-bottom: solid 1.4px #DEA855;
-//                 border-top: solid 1.4px #DEA855;
-//                 color: #3B2729;
-//             }
-//             a:hover{
-//                 background-color:#DEA855;
-//                 color: white;
-//             }
-//             .sale{
-//                 color:red;
-//             }
-//         }
-//     }
-// }
 
 
 

@@ -3,27 +3,28 @@
     .ItemList{
         h2{
             font-family: $Titulos;
+            color: $Cafe;
         }
         .Items{
             .Item{
                 .ItemInt{
                     text-decoration: none;
-                color:$Cafe;
-                h4{
-                    font-family: $Titulos;
-                }
-                // box-shadow: 60px -16px teal;
-                .imag1{
-                   display: inline;
-                }
-                .imag2{
-                    display:none; 
-                }    
+                    color:$Cafe;
+                    h5{
+                        font-family: $Titulos;
+                    }
+                    // box-shadow: 60px -16px teal;
+                    .imag1{
+                    display: inline;
+                    }
+                    .imag2{
+                        display:none; 
+                    }    
                 }
                 
             }
             .Item:hover{
-                h4{
+                h5{
                     color: $Amarillo;
                 }
                 .imag1{

@@ -1,9 +1,9 @@
 import { Item } from "../Item/Item"
 
-export const ItemList = ({productos = []}) => {
+export const ItemList = ({productos = [] , categoryId = []}) => {
     return (
         <div className="ItemList m-5">
-            <h2>Productos</h2>
+            <h2 className="text-uppercase">{categoryId}</h2>
             
             <div className="Items row ">
                 {productos.map((prod)=> {
@@ -12,7 +12,7 @@ export const ItemList = ({productos = []}) => {
                     } else{
                         return null
                     }
-                })} {/* Aqui estoy mapeando los productos que tengan stock>0 */}
+                })} 
             </div>
         </div>
     )

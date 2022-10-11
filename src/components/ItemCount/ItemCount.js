@@ -1,6 +1,5 @@
 
 export const ItemCount = ( {stock, counter, setCounter, handleAñadir} ) =>{
-    // const[counter, setCounter] =useState(1)
 
     const onAdd  = () => {
         if(counter<stock){
@@ -14,12 +13,24 @@ export const ItemCount = ( {stock, counter, setCounter, handleAñadir} ) =>{
     }
 
     return (
-        <div className="buttonsCount d-flex my-4">
-            <button onClick={onDecrement} className={`btn ${counter===1 ? "btn-danger" : "btn-warning"}`} // Condiciono cuando cambiar de className
-            disabled={counter===1}>-</button>
-            <h4 className="px-2 my-auto"> {counter} </h4>
-            <button onClick={onAdd} className={counter===stock ? "btn btn-danger" : "btn btn-warning"} disabled={counter===stock}>+</button>
-            <button onClick={handleAñadir} className="btn btn-warning mx-4 px-5" disabled={stock<=0}>Añadir al carrito</button>
+        <div className="buttonsCount d-flex mt-4 mb-2 col-xl-10 col-lg-12">
+            <div className="d-flex border border-3 rounded">
+                <button 
+                    onClick={onDecrement} 
+                    className={`px-3 btn ${counter===1 ? "btn-danger" : "btn-ligth"}`} // Condiciono cuando cambiar de className
+                    disabled={counter===1}
+                >-</button>
+                
+                <h4 className="px-3 my-auto"> {counter} </h4>
+                
+                <button
+                    onClick={onAdd} 
+                    className={`px-3 btn ${counter===stock ? "btn-danger" : "btn-ligth"}`}
+                    disabled={counter===stock}
+                >+</button>
+            </div>
+
+            <button onClick={handleAñadir} className="btn btn-warning mx-4 " disabled={stock<=0}>Añadir al carrito</button>
         </div>
     )
 }
