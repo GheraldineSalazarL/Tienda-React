@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/Tienda-React/static/css/main.550bcb7f.css",
-    "main.js": "/Tienda-React/static/js/main.28081058.js",
+    "main.css": "/Tienda-React/static/css/main.e9293e87.css",
+    "main.js": "/Tienda-React/static/js/main.a4f6848a.js",
     "static/js/787.d920d4ed.chunk.js": "/Tienda-React/static/js/787.d920d4ed.chunk.js",
+    "static/media/Carrusel1.png": "/Tienda-React/static/media/Carrusel1.3bee836a547d6526981b.png",
+    "static/media/Carrusel2.png": "/Tienda-React/static/media/Carrusel2.aad3aca497e73c20f394.png",
+    "static/media/Carrusel3.png": "/Tienda-React/static/media/Carrusel3.d6f165bde6e4da2b794b.png",
+    "static/media/back.jpg": "/Tienda-React/static/media/back.9ca393335cedeaff12b6.jpg",
     "index.html": "/Tienda-React/index.html",
-    "main.550bcb7f.css.map": "/Tienda-React/static/css/main.550bcb7f.css.map",
-    "main.28081058.js.map": "/Tienda-React/static/js/main.28081058.js.map",
+    "main.e9293e87.css.map": "/Tienda-React/static/css/main.e9293e87.css.map",
+    "main.a4f6848a.js.map": "/Tienda-React/static/js/main.a4f6848a.js.map",
     "787.d920d4ed.chunk.js.map": "/Tienda-React/static/js/787.d920d4ed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.550bcb7f.css",
-    "static/js/main.28081058.js"
+    "static/css/main.e9293e87.css",
+    "static/js/main.a4f6848a.js"
   ]
 }
